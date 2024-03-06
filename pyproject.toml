@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0","numpy>=1.21.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyDistMesh"
+dynamic = ["version"]
+authors = [
+  { name="Bradley Froehle", email="brad.froehle@gmail.com" },
+]
+maintainers = [
+  {name = "Yves Coudière", email = "yves.coudiere@u-bordeaux.fr"}
+]
+description = "A Simple Mesh Generator in Python"
+readme = "README.rst"
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.21.5", "scipy>=1.8.0", "matplotlib>=3.5.1"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: GPLv3 License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Private :: Do Not Upload",
+]
+
+[project.urls]
+Repository = "https://github.com/ycoudier/pydistmesh"
